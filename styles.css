@@ -1,0 +1,10 @@
+.grid {
+    user-select: none;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: #949494;
+    /* gap: 1px */
+}
