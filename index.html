@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <title>Etch-a-sketch</title>
-</head>
-<body>
-    <header>
-        <h1 class="heading">Etch-a-sketch</h1>
-    </header>
-    <main>
-        <div class="setting">
-            <input type="color" id="color" value="#333333">
-            <button id="color-btn">Color mode</button>
-            <button id="rainbow-btn">Rainbow mode</button>
-            <button id="eraser">Eraser</button>
-            <button id="clear">Clear</button>
-            <div class="size-value" id="size-value">16 x 16</div>
-            <input type="range" id="grid-size" value="16" min="9" max="65">
-        </div>
-        <div class="container"></div>
-    </main>
-    <footer>
-        <p>
-            Copyright ©
-            <script>
-              document.write(new Date().getFullYear())
-            </script>
-            OU-ZAA
-        </p>
-        <a href="https://github.com/OU-ZAA" target="_blank">
-            <i class="fab fa-github"></i>
-        </a>
-    </footer>
-
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<script src="script.js" defer></script>
+		<title>Etch-a-sketch</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="heading">Etch-a-sketch</h1>
+		</header>
+		<main>
+			<div class="setting">
+				<input type="color" id="color" value="#333333" />
+				<button id="color-btn">Color mode</button>
+				<button id="rainbow-btn">Rainbow mode</button>
+				<button id="eraser">Eraser</button>
+				<button id="clear">Clear</button>
+				<div class="size-value" id="size-value">16 x 16</div>
+				<input type="range" id="grid-size" value="16" min="9" max="65" />
+			</div>
+			<div class="container"></div>
+		</main>
+		<footer>
+			<p>
+				Copyright ©
+				<script>
+					document.write(new Date().getFullYear())
+				</script>
+				OU-ZAA
+			</p>
+			<a href="https://github.com/OU-ZAA" target="_blank">
+				<i class="fab fa-github"></i>
+			</a>
+		</footer>
+	</body>
 </html>
